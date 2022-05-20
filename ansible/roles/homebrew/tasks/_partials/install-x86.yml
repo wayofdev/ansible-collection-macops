@@ -1,0 +1,8 @@
+---
+
+- name: Ensure Homebrew parent directory has correct permissions (Intel)
+  file:
+    path: "{{ brew.prefix }}"
+    owner: root
+    state: directory
+  become: true

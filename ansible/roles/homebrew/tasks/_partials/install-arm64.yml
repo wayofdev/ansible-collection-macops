@@ -1,0 +1,9 @@
+---
+
+- name: Ensure Homebrew parent directory has correct permissions (M1).
+  file:
+    path: "{{ brew.prefix }}"
+    owner: "{{ brew.user }}"
+    state: directory
+  become: true
+  when: ansible_machine == 'arm64'

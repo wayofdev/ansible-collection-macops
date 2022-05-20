@@ -1,0 +1,47 @@
+---
+
+namespace: wayofdev
+name: macops
+version: "0.0.0"
+description: Single repository - collection for all MacOS specific Ansible roles.
+readme: "README.md"
+
+authors:
+  - "lotyp <lotyp7@gmail.com>"
+
+repository: https://github.com/wayofdev/ansible-collection-macops
+documentation: https://github.com/wayofdev/ansible-collection-macops
+homepage: https://github.com/wayofdev
+issues: https://github.com/wayofdev/ansible-collection-macops/issues
+
+# Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
+# accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
+license:
+  - LGPL-3.0-only
+
+tags:
+  - mac
+  - macos
+  - osx
+  - homebrew
+  - brew
+  - workstation
+  - dev
+  - mas
+  - appstore
+  - apps
+  - configure
+  - development
+  - apple
+  - ios
+  - macbook
+  - imac
+  - macmini
+  - server
+  - provision
+  - mdm
+
+dependencies:
+  "community.general": "*"
+
+build_ignore: []
